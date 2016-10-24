@@ -149,7 +149,9 @@ public:
 	vSeeds.push_back(CDNSSeedData("seed6.merel.mobi", "seed6.merel.mobi"));
 	vSeeds.push_back(CDNSSeedData("seed7.merel.mobi", "seed7.merel.mobi"));
 	vSeeds.push_back(CDNSSeedData("seed8.merel.mobi", "seed8.merel.mobi"));
-
+	vSeeds.push_back(CDNSSeedData("ip1", "199.204.185.7"))
+	vSeeds.push_back(CDNSSeedData("ip2", "192.73.235.254"))
+	vSeeds.push_back(CDNSSeedData("ip3", "192.73.234.174"))
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(50);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
